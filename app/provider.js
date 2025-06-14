@@ -25,7 +25,8 @@ function Provider({children}) {
       await db.insert(Users).values({
         name: user.fullName,
         email: user?.primaryEmailAddress?.emailAddress,
-        imageUrl: user?.imageUrl
+        imageUrl: user?.imageUrl,
+        subscription: false
       })
     }
   }
