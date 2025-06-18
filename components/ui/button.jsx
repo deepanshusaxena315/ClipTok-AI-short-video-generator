@@ -1,6 +1,16 @@
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cva } from "class-variance-authority";
+/**
+ * @param {{
+ *   className?: string,
+ *   variant?: string,
+ *   size?: string,
+ *   asChild?: boolean,
+ *   onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void
+ *   [key: string]: any
+ * }} props
+ */
 
 import { cn } from "@/lib/utils"
 

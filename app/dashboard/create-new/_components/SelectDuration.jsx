@@ -22,6 +22,7 @@ function SelectDuration({onUserSelect}) {
         <SelectContent>
 
                 <SelectItem value='30 seconds' >30 seconds</SelectItem>
+                <SelectItem value='45 seconds' >45 seconds</SelectItem>
                 <SelectItem value='60 seconds' >60 seconds</SelectItem>
 
         </SelectContent>
